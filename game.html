@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html manifest="/cache.manifest">
+<head>
+
+</head>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/jsxgraph.css" />
+	<script type="text/javascript" src="assets/js/jsxgraphcore.js"></script>
+	
+	
+	 <script src="assets/js/jquery-1.10.2.min.js"></script>
+	 <script src="assets/js/crafty.js"></script>
+	 <script src="assets/js/Box2dWeb-2.1.a.3.js"></script>
+	 <script src="assets/js/box2d.js"></script>
+	
+	
+	 <script src="assets/js/CalculusGraph.js"></script>
+	 <script src="assets/js/game.js"></script>
+
+ 
+	<!--charting tools -->
+
+<body id="body" >
+	<div id="main-containter">
+		<header id="top-navigation"  class="grid-12 clearfix">
+			<h1>
+					<strong>hot air balloons</strong> game with HTML5
+					<!--<span>Simple casual game ~ educational</span>-->
+					<span>Use &larr; &uarr; &rarr; keys to play</span>
+			</h1>
+			<article id="icons-container" class="right clearfix">
+				<ul  class="">
+					<!--<li class="left">Hot Air Balloon Game</li>-->
+
+					<li class="right clearfix">
+						 Menu Options
+						<ul>
+							<li><a> Help </a></li>
+							<li><a> About Game </a></li>
+						</ul>
+					</li>
+				</ul>
+			</article>
+		</header>
+
+		<section class="page-content grid-12 ">
+
+			
+
+			<article id="gameplay-area">
+				<div id="cr-stage" class="grid-9 left"></div>
+				
+				<div id="box" class="jxgbox myChart grid-3 left" ></div>
+				<div id="key-guides">
+					<span>Controls</span>
+					<span id="left-key" class="keys">&larr;</span>
+					 <span id="up-key" class="keys">&uarr; </span>
+					 <span id="right-key" class="keys">&rarr;</span>
+				</div>
+
+				<div id="game-ui-info">
+					<span> Air Temperature: <span id="air-temp" ></span> <small>o</small>C </span>
+					<br />
+					<span> Wind: <span id="wind" ></span> </span>
+					<br/>
+					<span> <span id="balloon_weight" ></span> </span>
+					
+				</div>
+
+			</article>
+			
+			<div id="GaugeContainers" class="left grid-3">
+				<div id="game_info"></div>
+				<div id="game_info_position"></div>
+
+				<span id="memoryGaugeContainer"></span>
+				<span id="cpuGaugeContainer"></span>
+				<span id="networkGaugeContainer"></span>
+				<span id="speedGaugeContainer"></span>
+			</div>
+		
+		</section>
+
+		<footer id="footer" class="grid-12">
+		</footer>
+	</div>
+</body>
+ <script>
+ $( document ).ready(function() {
+ 	CGame.start();
+
+ 	$('')
+
+ 	//$('#left-key').addClass('holding');
+ 	/*
+ 		$(document).bind('keypress', keyboardEvent);
+ 		function keyboardEvent(e){
+ 			var keynum = e.which;
+
+		    alert(keynum);
+		    switch(keynum)
+		    {
+		    	case 38:
+		    		$('#up-key').addClass('holding');
+		    	break;
+		    }
+ 		} */
+
+ });
+	//window.addEventListener('load', CGame.start); //C - crafty
+	//window.addEventListener('load', initializeGauge); //Gauges
+
+</script>
+
+</html>

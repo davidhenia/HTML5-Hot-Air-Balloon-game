@@ -1,0 +1,370 @@
+/*
+	General Page CSS
+*/
+.grid-12{ width:960px; }
+.grid-11{ width:860px;}
+.grid-10{ width:780px;}
+.grid-9{ width:700px; }
+.grid-8{ width:620px; }
+.grid-7{ width:620px; }
+.grid-6{ width:540px; }
+.grid-5{ width:460px; }
+.grid-3{ width:300px; }
+.grid-2{ width:200px; }
+
+.grid-1{ width:60px; }
+
+body {
+    color: #333333;
+    font-family: 'Lato',Calibri,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+
+    background: none repeat scroll 0 0 #FFF;
+}
+#main-containter{
+	
+	min-height: 100%;
+	min-width: 100%;
+
+	width: 1024px;
+	height: 500px;
+
+}
+
+header, footer, .page-content{
+	width: 90%;
+}
+
+header, footer{
+	min-height: 30px;
+}
+
+header{
+	height: 30px;
+
+	
+    left: 0;
+    margin: 0 auto;
+    padding: 2em 1em;
+    /*position: absolute;*/
+    text-align: left;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+
+
+    max-width: 1240px;
+    padding: 0 30px 50px;
+}
+
+
+header h1 {
+    color: #498EA5;
+    float: left;
+ 	font-size: 30px;
+    font-weight: 300;
+    line-height: 38px;
+    margin: 0;
+ 	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+}
+header span {
+	color: #666;
+ 	display: block;
+    font-size: 20px;
+    font-weight: 300;
+}
+.page-content{
+    position: relative;
+	background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-height: 500px;
+    margin: auto;
+    max-width: 1024px;
+    height: 500px;
+
+    overflow: hidden;
+
+
+}
+
+
+#icons-container{
+	height: 40px;
+}
+#icons-container > ul{
+	list-style: none;
+	color: #237DAC;
+}
+
+#icons-container > ul > li{
+	display: inline;
+	min-width: 30px;
+
+}
+
+#icons-container > ul > li > ul > li{
+	background: none repeat scroll 0 0 rgba(41, 77, 95, 0.1);
+	border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 20px;
+    margin: 0 4px;
+    padding: 0 4px;
+    transition: all 0.2s linear 0s;
+}
+
+#icons-container > ul > li > ul > li:hover {
+    background: none repeat scroll 0 0 rgba(41, 77, 95, 0.3);
+}
+
+.left{ float: left;}
+.right{float: right;}
+strong{ font-weight: bold; }
+a {
+    color: #237DAC;
+    outline: medium none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*
+environment metres
+*/
+#noteswinner {
+    clear: both;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+#noteswinner ul:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+#noteswinner ul {
+    margin-bottom: 10px;
+}
+#noteswinner ul li {
+    float: left;
+    margin-right: 10px;
+}
+
+li.design .notesite:before {
+    background: none repeat scroll 0 0 #DF6C4F;
+}
+.notesite:before {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    content: "";
+    display: block;
+    height: 1em;
+    opacity: 0.5;
+    position: absolute;
+    width: 1em;
+    z-index: 0;
+}
+.notesite:after {
+    background: none repeat scroll 0 0 #E4E6E5;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    content: "";
+    display: block;
+    height: 0.8em;
+    left: 0.1em;
+    position: absolute;
+    top: 0.1em;
+    width: 0.8em;
+    z-index: 1;
+}
+.notesite {
+    cursor: default;
+    display: inline-block;
+    font-size: 5.4em;
+    height: 1em;
+    position: relative;
+    width: 1em;
+}
+
+.notesite > .percent {
+    font-size: 25px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 100%;
+    z-index: 2;
+}
+.notesite > .percent .dec {
+    font-size: 15px;
+}
+
+.notesite > #slice.gt50 {
+    clip: rect(auto, auto, auto, auto);
+}
+.notesite > #slice {
+    clip: rect(0px, 1em, 1em, 0.5em);
+    height: 1em;
+    position: absolute;
+    width: 1em;
+}
+
+/*element.style {
+    transform: rotate(241.2deg);
+} */
+li.design .notesite > #slice > .pie {
+    border-color: #DF6C4F;
+}
+.notesite > #slice > .pie {
+    border: 0.1em solid #444444;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    clip: rect(0em, 0.5em, 1em, 0em);
+    height: 0.8em;
+    position: absolute;
+    width: 0.8em;
+}
+/*element.style {
+    transform: rotate(241.2deg);
+} */
+li.design .notesite > #slice > .pie {
+    border-color: #DF6C4F;
+}
+.notesite > #slice > .pie.fill {
+    transform: rotate(180deg) !important;
+}
+.notesite > #slice > .pie {
+    border: 0.1em solid #444444;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    clip: rect(0em, 0.5em, 1em, 0em);
+    height: 0.8em;
+    position: absolute;
+    width: 0.8em;
+}
+
+/*
+	Clearfix solution from css-tricks.com/snippets/css/clear-fix/
+*/
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.left{	float:left; }
+.right{	float:right; }
+.clear-left{clear:left;}
+.clear-right{clear:right;}
+.clear-both{clear:both;}
+.white-bg{ background: #FFF; }
+.list-style-none{ list-style: none;}
+.important {
+    color: #FF3706 !important;
+}
+/*
+	End of General Page CSS
+*/
+
+/*
+	Game CSS
+*/
+
+#cr-stage{
+	background:url('../images/background.png') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+
+
+	border: 1px solid #ccc;
+
+	/*max-width: 780;
+	max-height: 500;*/
+
+}
+
+#game_info{
+	color: blue;
+}
+#key-guides{
+    position: absolute;
+    left: 10px;
+    top: 450px;
+
+    
+}
+
+.keys{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+
+    font-size: 21px;
+    font-weight: 700;
+
+    background: none;
+    background-color: transparent;
+}
+
+.holding{
+    background-color: #DF6C4F;
+
+}
+
+#game-ui-info{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+#game_info_position{
+		
+/*	position: absolute;
+    right: -150px;
+    top: -1px; */
+}
+	
+
+#GaugeContainers{
+	/*position: absolute;
+	bottom: 0; right: 5px;*/
+	height: 150px;
+	width: 420px;
+
+	border: 1px solid #000;
+}
+
+.myChart{
+	position: absolute !important; top: 200px; right: 0;
+    height: 300px;
+	width: 300px;
+  
+    border-radius: 100px !important;
+  
+}
+
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}

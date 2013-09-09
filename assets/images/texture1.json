@@ -1,0 +1,164 @@
+{"frames": [
+
+{
+	"filename": "Dirt.png",
+	"frame": {"x":262,"y":386,"w":128,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":122},
+	"sourceSize": {"w":128,"h":122}
+},
+{
+	"filename": "Dirt2.png",
+	"frame": {"x":132,"y":386,"w":128,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":122},
+	"sourceSize": {"w":128,"h":122}
+},
+{
+	"filename": "DirtRock.png",
+	"frame": {"x":132,"y":2,"w":128,"h":134},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":134},
+	"sourceSize": {"w":128,"h":134}
+},
+{
+	"filename": "DirtRock2.png",
+	"frame": {"x":2,"y":2,"w":128,"h":134},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":134},
+	"sourceSize": {"w":128,"h":134}
+},
+{
+	"filename": "Grass.png",
+	"frame": {"x":2,"y":386,"w":128,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":122},
+	"sourceSize": {"w":128,"h":122}
+},
+{
+	"filename": "Grass2.png",
+	"frame": {"x":262,"y":262,"w":128,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":122},
+	"sourceSize": {"w":128,"h":122}
+},
+{
+	"filename": "GrassNGrass.png",
+	"frame": {"x":262,"y":133,"w":128,"h":127},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":127},
+	"sourceSize": {"w":128,"h":127}
+},
+{
+	"filename": "GrassNGrass2.png",
+	"frame": {"x":262,"y":2,"w":128,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":129},
+	"sourceSize": {"w":128,"h":129}
+},
+{
+	"filename": "Ground.png",
+	"frame": {"x":132,"y":262,"w":128,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":122},
+	"sourceSize": {"w":128,"h":122}
+},
+{
+	"filename": "Ground2.png",
+	"frame": {"x":2,"y":262,"w":128,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":122},
+	"sourceSize": {"w":128,"h":122}
+},
+{
+	"filename": "Sand.png",
+	"frame": {"x":132,"y":138,"w":128,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":122},
+	"sourceSize": {"w":128,"h":122}
+},
+{
+	"filename": "Sand2.png",
+	"frame": {"x":2,"y":138,"w":128,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":122},
+	"sourceSize": {"w":128,"h":122}
+},
+{
+	"filename": "Sky.png",
+	"frame": {"x":392,"y":155,"w":110,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":110,"h":78},
+	"sourceSize": {"w":128,"h":122}
+},
+{
+	"filename": "Sky2.png",
+	"frame": {"x":392,"y":235,"w":96,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":19,"w":96,"h":86},
+	"sourceSize": {"w":128,"h":122}
+},
+{
+	"filename": "Sky3.png",
+	"frame": {"x":494,"y":2,"w":1,"h":1},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1,"h":1},
+	"sourceSize": {"w":128,"h":122}
+},
+{
+	"filename": "Sky4.png",
+	"frame": {"x":392,"y":409,"w":62,"h":32},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":14,"w":62,"h":32},
+	"sourceSize": {"w":128,"h":122}
+},
+{
+	"filename": "balloon2.png",
+	"frame": {"x":392,"y":2,"w":100,"h":151},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":151},
+	"sourceSize": {"w":100,"h":151}
+},
+{
+	"filename": "brick_texture.png",
+	"frame": {"x":2,"y":510,"w":197,"h":32},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":197,"h":32},
+	"sourceSize": {"w":199,"h":34}
+},
+{
+	"filename": "cloud.png",
+	"frame": {"x":392,"y":323,"w":96,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":6,"w":96,"h":84},
+	"sourceSize": {"w":96,"h":96}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "texture1.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ac1e95f564290dd59ef43a989f5c8fd8$"
+}
+}
